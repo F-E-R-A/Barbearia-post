@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/-218');
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer h4{
+    margin-top: 0px;
+    font-family: 'Willonita';
+    font-size: 45px;
+    font-weight: 400;
+    color:rgb(253, 165, 3)
+}
