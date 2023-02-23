@@ -1,0 +1,130 @@
+/*Header*/
+@import url('https://fonts.cdnfonts.com/css/-218');
+
+.initialpageLight{
+    background-color: rgb(235, 235, 235);
+}
+.initialpageDark{
+    background-color: #252323;
+    color: white;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    height: 65px;
+}
+
+.div-logo{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.div-logo img{
+    width: 100px;
+    height: 65px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+/*Dark Mode Teme*/
+.button-dark button{
+    background: url("../../../public/assets/moon.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    width: 100px;
+    height: 35px;
+    text-align: end;
+    padding-right: 20px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 20px;
+}
+.button-dark button:hover{
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    height: 100%;
+}
+.links{
+    color: black; 
+    text-decoration: none;
+    border-right: 1px solid rgb(179, 179, 179);
+    width: 100px;
+    text-align: center;
+    padding: 10px 0
+}
+.links:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+
+.capa{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../../public/assets/banner-barbearia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.capa h1{
+    font-family: 'Gajraj One';
+    color: white;
+    font-size: 80px;
+    box-shadow: 0 0 10px 0px white;
+    padding: 0 150px;
+}
+
+
+.descr{
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.descr h2{
+    font-size: 19px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer h4{
+    margin-top: 0px;
+    font-family: 'Willonita';
+    font-size: 45px;
+    font-weight: 400;
+    color:rgb(253, 165, 3)
+}
